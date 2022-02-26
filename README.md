@@ -38,6 +38,7 @@ if len(response.Errors) > 0 {
 }
 
 fmt.Println(response.METARs[0].RawText)
+// -> "EDDF 262150Z VRB02KT CAVOK 02/M01 Q1033 NOSIG"
 ```
 
 ### Fetch TAF data
